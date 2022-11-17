@@ -1,0 +1,30 @@
+{
+  "name": "@leansman/card",
+  "version": "1.0.0",
+  "description": "A cool card on the terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeAnsman/cli-card.git"
+  },
+  "keywords": [
+    "card"
+  ],
+  "type": "module",
+  "author": "Anselme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeAnsman/cli-card/issues"
+  },
+  "homepage": "https://github.com/LeAnsman/cli-card#readme",
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.1.2"
+  },
+  "bin": {
+    "card": "./index.js"
+  }
+}
